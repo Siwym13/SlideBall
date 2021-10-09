@@ -85,6 +85,7 @@
     <Compile Include="Assets\Scripts Game\Stars\starsSave\L03_stars.cs" />
     <Compile Include="Assets\Scripts Game\Stars\starsSave\L04_stars.cs" />
     <Compile Include="Assets\Scripts Game\Stars\starsSave\L05_stars.cs" />
+    <Compile Include="Assets\Scripts Game\Stars\starsSave\L06_stars.cs" />
     <Compile Include="Assets\Scripts Game\Stars\starsTriger.cs" />
     <Compile Include="Assets\Scripts Game\Stars\starsVievText.cs" />
     <Compile Include="Assets\Scripts Game\levelLock.cs" />

@@ -7,7 +7,6 @@ public class Stars : MonoBehaviour
     public static int starsColect;
     static int starsColectRecord;
     static bool ifColect;
-    public int levelNumber;
     int sounds;
 
     [SerializeField]

@@ -43,11 +43,19 @@ public class starsManager : MonoBehaviour
     [SerializeField]
     GameObject T3a5;
 
+    [SerializeField]
+    GameObject T1a6;
+    [SerializeField]
+    GameObject T2a6;
+    [SerializeField]
+    GameObject T3a6;
+
     int starsColect1;
     int starsColect2;
     int starsColect3;
     int starsColect4;
     int starsColect5;
+    int starsColect6;
 
     // Start is called before the first frame update
     void Start()
@@ -57,6 +65,7 @@ public class starsManager : MonoBehaviour
         starsColect3 = PlayerPrefs.GetInt("starsColectRecord3");
         starsColect4 = PlayerPrefs.GetInt("starsColectRecord4");
         starsColect5 = PlayerPrefs.GetInt("starsColectRecord5");
+        starsColect6 = PlayerPrefs.GetInt("starsColectRecord6");
 
         T1a1.gameObject.SetActive(false);
         T2a1.gameObject.SetActive(false);
@@ -77,6 +86,10 @@ public class starsManager : MonoBehaviour
         T1a5.gameObject.SetActive(false);
         T2a5.gameObject.SetActive(false);
         T3a5.gameObject.SetActive(false);
+
+        T1a6.gameObject.SetActive(false);
+        T2a6.gameObject.SetActive(false);
+        T3a6.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -175,6 +188,25 @@ public class starsManager : MonoBehaviour
             T1a5.gameObject.SetActive(true);
             T2a5.gameObject.SetActive(true);
             T3a5.gameObject.SetActive(true);
+        }
+
+        //6
+        if (starsColect6 == 1)
+        {
+            T1a6.gameObject.SetActive(true);
+        }
+
+        if (starsColect6 == 2)
+        {
+            T1a6.gameObject.SetActive(true);
+            T2a6.gameObject.SetActive(true);
+        }
+
+        if (starsColect6 == 3)
+        {
+            T1a6.gameObject.SetActive(true);
+            T2a6.gameObject.SetActive(true);
+            T3a6.gameObject.SetActive(true);
         }
     }
 }

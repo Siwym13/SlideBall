@@ -28,6 +28,12 @@ public class levelLock : MonoBehaviour
     [SerializeField]
     GameObject L5;
 
+    [SerializeField]
+    GameObject B6;
+
+    [SerializeField]
+    GameObject L6;
+
     int maxLevel;
 
     public void Start()
@@ -41,6 +47,8 @@ public class levelLock : MonoBehaviour
         L4.gameObject.SetActive(true);
         B5.gameObject.SetActive(false);
         L5.gameObject.SetActive(true);
+        B6.gameObject.SetActive(false);
+        L6.gameObject.SetActive(true);
         Lock();
     }
 
@@ -68,6 +76,12 @@ public class levelLock : MonoBehaviour
         {
             B5.gameObject.SetActive(true);
             L5.gameObject.SetActive(false);
+        }
+
+        if (maxLevel >= 5)
+        {
+            B6.gameObject.SetActive(true);
+            L6.gameObject.SetActive(false);
         }
     }
 
