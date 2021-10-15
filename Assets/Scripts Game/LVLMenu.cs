@@ -62,6 +62,15 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_5");
     }
 
+    public void Poziom6()
+    {
+        if (sounds == 0)
+        {
+            audio.Play();
+        }
+        SceneManager.LoadScene("lvl_6");
+    }
+
     public void PoziomMenu()
     {
         if (sounds == 0)

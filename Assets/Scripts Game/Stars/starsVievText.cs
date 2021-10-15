@@ -14,7 +14,8 @@ public class starsVievText : MonoBehaviour
     int stars2;
     int stars3;
     int stars4;
-    int stars5; 
+    int stars5;
+    int stars6;
 
     void Start()
     {
@@ -24,8 +25,9 @@ public class starsVievText : MonoBehaviour
         stars3 = PlayerPrefs.GetInt("starsColectRecord3");
         stars4 = PlayerPrefs.GetInt("starsColectRecord4");
         stars5 = PlayerPrefs.GetInt("starsColectRecord5");
+        stars6 = PlayerPrefs.GetInt("starsColectRecord6");
         //Dodawanie Starsów 
-        allStars = stars1 + stars2 + stars3 + stars4;
+        allStars = stars1 + stars2 + stars3 + stars4 + stars5 + stars6;
         //Wyświetlanie Starsów
         starsViev.text = allStars.ToString();
     }

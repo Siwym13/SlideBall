@@ -6329,7 +6329,7 @@ PrefabInstance:
     - target: {fileID: 5450521124548107949, guid: 209e9a3b4d7b6fc4f86a6f7c805b03ba,
         type: 3}
       propertyPath: levelNumber
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5450521124548107949, guid: 209e9a3b4d7b6fc4f86a6f7c805b03ba,
         type: 3}
@@ -9915,17 +9915,17 @@ PrefabInstance:
     - target: {fileID: 1957358055251459290, guid: d3e75a038390132428040e0b9e2329a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1957358055251459290, guid: d3e75a038390132428040e0b9e2329a2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.751
+      value: 14.732
       objectReference: {fileID: 0}
     - target: {fileID: 1957358055251459290, guid: d3e75a038390132428040e0b9e2329a2,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.4978895
+      value: 5.534923
       objectReference: {fileID: 0}
     - target: {fileID: 1962239829195119851, guid: d3e75a038390132428040e0b9e2329a2,
         type: 3}
@@ -15080,7 +15080,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e901a32be5be447ad212cabb345dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 5
   T1: {fileID: 87929934}
   T2: {fileID: 87929933}
   T3: {fileID: 87929931}

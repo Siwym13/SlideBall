@@ -798,7 +798,7 @@ PrefabInstance:
     - target: {fileID: 5450521124548107949, guid: 209e9a3b4d7b6fc4f86a6f7c805b03ba,
         type: 3}
       propertyPath: levelNumber
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5450521124548107950, guid: 209e9a3b4d7b6fc4f86a6f7c805b03ba,
         type: 3}
@@ -1005,6 +1005,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MenuPI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5592900405582974776, guid: 560fd839da62c9442ba9243f860624f7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5592900405582974779, guid: 560fd839da62c9442ba9243f860624f7,
         type: 3}
@@ -5382,8 +5387,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1280035752456846017}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 7.2000003, y: 2, z: 6.1008}
-  m_LocalScale: {x: 2.201592, y: 4, z: 0.4000002}
+  m_LocalPosition: {x: 7.2000003, y: 2, z: 6.101}
+  m_LocalScale: {x: 2.201415, y: 4, z: 0.4000002}
   m_Children: []
   m_Father: {fileID: 410134234769628193}
   m_RootOrder: 52
@@ -7810,7 +7815,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e901a32be5be447ad212cabb345dc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelNumber: 4
   T1: {fileID: 795220818}
   T2: {fileID: 369270165}
   T3: {fileID: 2145738709}

@@ -152,7 +152,7 @@ Transform:
   m_Children:
   - {fileID: 1074322129}
   m_Father: {fileID: 1878366300}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &13387494
 SpriteRenderer:
@@ -1644,7 +1644,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1088029021}
-        m_MethodName: Poziom5
+        m_MethodName: Poziom6
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2107,7 +2107,7 @@ RectTransform:
   m_Children:
   - {fileID: 811965291}
   m_Father: {fileID: 1878366300}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5351,7 +5351,7 @@ Transform:
   - {fileID: 1335385289}
   - {fileID: 497684277}
   m_Father: {fileID: 1878366300}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1679444131
 GameObject:
@@ -6313,9 +6313,9 @@ RectTransform:
   - {fileID: 2007785537}
   - {fileID: 1523939332}
   - {fileID: 713599549}
+  - {fileID: 1656885303}
   - {fileID: 642902273}
   - {fileID: 13387493}
-  - {fileID: 1656885303}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
