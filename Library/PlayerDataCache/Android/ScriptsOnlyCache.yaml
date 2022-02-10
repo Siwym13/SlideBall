@@ -41,10 +41,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -271,7 +269,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -368,7 +366,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14532}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -465,7 +463,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -562,9 +560,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 114
-      Script: {instanceID: 28030}
+      Script: {instanceID: 27542}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -661,7 +659,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -758,7 +756,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14424}
     - Class: 114
-      Script: {instanceID: 15456}
+      Script: {instanceID: 19908}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128

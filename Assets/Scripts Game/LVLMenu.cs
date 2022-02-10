@@ -26,7 +26,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_1");
     }
 
-    public void Poziom2()
+    void Poziom2()
     {
         if (sounds == 0)
         {
@@ -35,7 +35,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_2");
     }
 
-    public void Poziom3()
+    void Poziom3()
     {
         if (sounds == 0)
         {
@@ -44,7 +44,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_3");
     }
 
-    public void Poziom4()
+    void Poziom4()
     {
         if (sounds == 0)
         {
@@ -53,7 +53,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_4");
     }
 
-    public void Poziom5()
+    void Poziom5()
     {
         if (sounds == 0)
         {
@@ -62,7 +62,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_5");
     }
 
-    public void Poziom6()
+    void Poziom6()
     {
         if (sounds == 0)
         {
@@ -71,7 +71,7 @@ public class LVLMenu : MonoBehaviour
         SceneManager.LoadScene("lvl_6");
     }
 
-    public void PoziomMenu()
+    void PoziomMenu()
     {
         if (sounds == 0)
         {

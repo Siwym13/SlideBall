@@ -94,13 +94,13 @@ public class BallMove : MonoBehaviour
         nextMenu.gameObject.SetActive(true);
     }
 
-    public static void Pauza()
+   public static void Pauza()
     {
         moveAllowed = false;
         rb.velocity = Vector2.zero;
     }
 
-    public static void Play()
+   public static void Play()
     {
         moveAllowed = true;
     }

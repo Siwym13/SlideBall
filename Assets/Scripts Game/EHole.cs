@@ -16,7 +16,7 @@ public class EHole : MonoBehaviour
     [SerializeField]
     AudioClip clip;
 
-    public void Start()
+    void Start()
     {
         levelEnd = false;
         maxLevel1 = PlayerPrefs.GetInt("maxLevel");
@@ -25,7 +25,7 @@ public class EHole : MonoBehaviour
         sounds = PlayerPrefs.GetInt("soundsON");
     }
 
-    public void Update()
+     void Update()
     {            
         if (levelUnlock)
         {

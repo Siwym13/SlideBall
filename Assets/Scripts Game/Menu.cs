@@ -17,7 +17,7 @@ public class Menu : MonoBehaviour
         audio = GetComponent<AudioSource>();
     }
 
-    public void GameStart()
+    void GameStart()
     {
         if (sounds == 0)
         {
@@ -26,7 +26,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("lvl_1");
     }
 
-    public void ChoseLvL()
+    void ChoseLvL()
     {
         if (sounds == 0)
         {
@@ -35,7 +35,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("chose_lvl");
     }
 
-    public void Options()
+    void Options()
     {
         if (sounds == 0)
         {

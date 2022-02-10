@@ -36,7 +36,7 @@ public class levelLock : MonoBehaviour
 
     int maxLevel;
 
-    public void Start()
+    void Start()
     {
         maxLevel = PlayerPrefs.GetInt("maxLevel");
         B2.gameObject.SetActive(false);
@@ -52,7 +52,7 @@ public class levelLock : MonoBehaviour
         Lock();
     }
 
-    public void Lock()
+    void Lock()
     {
         if (maxLevel >= 1)
         {

@@ -40,7 +40,7 @@ public class NextMenu : MonoBehaviour
         }
     }
 
-    public void NextLvL()
+    void NextLvL()
     {
         if (sounds == 0)
         {
@@ -49,7 +49,7 @@ public class NextMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
    
-    public void ReturnMenu()
+    void ReturnMenu()
     {
         if (sounds == 0)
         {
@@ -58,7 +58,7 @@ public class NextMenu : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
    
-    public void PlayAgain()
+    void PlayAgain()
     {
         if (sounds == 0)
         {
@@ -67,7 +67,7 @@ public class NextMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
     }
 
-    public void PasueButton()
+    void PasueButton()
     {
         if (sounds == 0)
         {
@@ -78,7 +78,7 @@ public class NextMenu : MonoBehaviour
         BallMove.Pauza();
     }
 
-    public void PlayButton()
+    void PlayButton()
     {
         if (sounds == 0)
         {
@@ -89,7 +89,7 @@ public class NextMenu : MonoBehaviour
         BallMove.Play();
     }
 
-    public void ChoseLvL()
+    void ChoseLvL()
     {
         if (sounds == 0)
         {

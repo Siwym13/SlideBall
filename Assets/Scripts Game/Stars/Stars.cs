@@ -52,7 +52,7 @@ public class Stars : MonoBehaviour
          }
     }
    
-    public void FixedUpdate()
+    void FixedUpdate()
     {
         if (starsColect == 1)
         {

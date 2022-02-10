@@ -40,7 +40,7 @@ public class Options : MonoBehaviour
         sounds = PlayerPrefs.GetInt("soundsON");
     }
 
-    public void MenuReturn()
+    void MenuReturn()
     {
         if (sounds == 0)
         {
@@ -49,7 +49,7 @@ public class Options : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
-    public void ButtonResetGame()
+    void ButtonResetGame()
     {
         if (sounds == 0)
         {
@@ -58,7 +58,7 @@ public class Options : MonoBehaviour
         resetConfirm.gameObject.SetActive(true);
     }
 
-    public void ResetConfirmFalse()
+    void ResetConfirmFalse()
     {
         if (sounds == 0)
         {
@@ -67,7 +67,7 @@ public class Options : MonoBehaviour
         resetConfirm.gameObject.SetActive(false);
     }
 
-    public void ResetConfirmeTrue()
+     void ResetConfirmeTrue()
     {
         if (sounds == 0)
         {
@@ -78,7 +78,7 @@ public class Options : MonoBehaviour
         resetSuccess.gameObject.SetActive(true);
     }
 
-    public void ResetSuccessOk()
+     void ResetSuccessOk()
     {
         if (sounds == 0)
         {
@@ -87,13 +87,13 @@ public class Options : MonoBehaviour
         resetSuccess.gameObject.SetActive(false);
     }
 
-    public void GameSoundsOff()
+    void GameSoundsOff()
     {
         soundsOff.gameObject.SetActive(true);
         PlayerPrefs.SetInt("soundsON", 1);
     }
 
-    public void GameSoundOn()
+     void GameSoundOn()
     {
         soundsOff.gameObject.SetActive(false);
         PlayerPrefs.SetInt("soundsON", 0);
